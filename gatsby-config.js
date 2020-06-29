@@ -9,7 +9,7 @@ module.exports = {
     title: 'MDX WP',
     description: 'It is a WP with MDX blog ',
     keywords: ['GatsbyJs', 'React', 'theme-ui'],
-    siteURL: 'https://gatsby-starter-mountain.netlify.com', // No trailing slash allowed!
+    siteURL: 'https://build-01948c84-9555-4b16-b1d0-130f7f6bf006.gtsb.io', // No trailing slash allowed!
     siteImage: '/preview.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@CArtezan',
     author: {
@@ -40,7 +40,7 @@ module.exports = {
         // The protocol. This can be http or https.
         protocol: 'https',
         // Use 'Advanced Custom Fields' Wordpress plugin
-        useACF: false,
+        useACF: true,
         // Set to true to debug endpoints on 'gatsby build'
         verboseOutput: false,
         includedRoutes: [
