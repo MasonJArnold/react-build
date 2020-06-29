@@ -9,7 +9,7 @@ module.exports = {
     title: 'MDX WP',
     description: 'It is a WP with MDX blog ',
     keywords: ['GatsbyJs', 'React', 'theme-ui'],
-    siteURL: 'https://build-01948c84-9555-4b16-b1d0-130f7f6bf006.gtsb.io', // No trailing slash allowed!
+    siteURL: 'https://build-62eec10e-8027-4d6a-9b87-fe4d41f29d43.gtsb.io', // No trailing slash allowed!
     siteImage: '/preview.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@CArtezan',
     author: {
@@ -34,7 +34,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-wordpress',
       options: {
-        baseUrl: 'wpdemo.gatsbycentral.com',
+        baseUrl: 'https://build-62eec10e-8027-4d6a-9b87-fe4d41f29d43.gtsb.io',
         // WP.com sites set to true, WP.org set to false
         hostingWPCOM: false,
         // The protocol. This can be http or https.
