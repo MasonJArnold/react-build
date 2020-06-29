@@ -9,7 +9,7 @@ module.exports = {
     title: 'MDX WP',
     description: 'It is a WP with MDX blog ',
     keywords: ['GatsbyJs', 'React', 'theme-ui'],
-    siteURL: 'https://optimistic-goldstine-a4f3aa.netlify.app', // No trailing slash allowed!
+    siteURL: 'https://gatsby-starter-mountain.netlify.com', // No trailing slash allowed!
     siteImage: '/preview.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@CArtezan',
     author: {
@@ -34,7 +34,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-wordpress',
       options: {
-        baseUrl: 'gatsbyreact.wpengine.com',
+        baseUrl: 'wpdemo.gatsbycentral.com',
         // WP.com sites set to true, WP.org set to false
         hostingWPCOM: false,
         // The protocol. This can be http or https.
@@ -42,7 +42,7 @@ module.exports = {
         // Use 'Advanced Custom Fields' Wordpress plugin
         useACF: false,
         // Set to true to debug endpoints on 'gatsby build'
-        verboseOutput: true,
+        verboseOutput: false,
         includedRoutes: [
           '**/categories',
           '**/posts',
@@ -56,7 +56,7 @@ module.exports = {
           {
             resolve: `gatsby-wordpress-inline-images`,
             options: {
-              baseUrl: `gatsbyreact.wpengine.com`,
+              baseUrl: `wpdemo.gatsbycentral.com`,
               protocol: `https`,
               postTypes: ['post', 'page']
             }
