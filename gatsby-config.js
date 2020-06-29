@@ -40,7 +40,7 @@ module.exports = {
         // The protocol. This can be http or https.
         protocol: 'https',
         // Use 'Advanced Custom Fields' Wordpress plugin
-        useACF: false,
+        useACF: true,
         // Set to true to debug endpoints on 'gatsby build'
         verboseOutput: false,
         includedRoutes: [
@@ -56,7 +56,7 @@ module.exports = {
           {
             resolve: `gatsby-wordpress-inline-images`,
             options: {
-              baseUrl: `wpdemo.gatsbycentral.com`,
+              baseUrl: `gatsbyreact.wpengine.com`,
               protocol: `https`,
               postTypes: ['post', 'page']
             }
